@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 3</title>
+</head>
+<body>
+    <form action="" style="color: blue;">
+        <h3>FORM ĐĂNG KÝ NGƯỜI DÙNG</h3>
+        <div>
+            <label for="Hoten"><b>Họ và tên</b></label>
+            <br>
+            <input type="text" name="Hoten">
+        </div>
+        <br>
+        <div>
+            <label for="Email"><b>Email:</b></label>
+            <br>
+            <input type="email" name="Email">
+        </div>
+        <br>
+        <div>
+            <label for="phone"><b>Số điện thoại:</b> </label>
+            <br>
+            <input 
+                type="number" 
+                name="phone" 
+                pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
+                placeholder="xxxx xxx xxx"
+            >
+        </div>
+        <br>
+        <div>
+            <label for="sex"><b>Giới tính:</b> </label>
+            <br>
+            <input type="radio" name="sex">
+            <label for="">Nam</label>
+            <input type="radio" name="sex">
+            <label for="">Nữ</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit"value="Đăng ký">
+        </div>
+    </form>
+    
+</body>
+</html>
