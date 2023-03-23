@@ -1,0 +1,15 @@
+#anh1{
+  text-align: left;  
+  width: 100px;
+}
+
+body {
+    width: 500px;
+}
+ul{
+   text-align: left; 
+   color: red;
+}
+article{
+    text-align: justify;
+}
